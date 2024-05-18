@@ -1,0 +1,120 @@
+/* Reset styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    background: #222;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Card styles */
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+/* Search bar styles */
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px; /* Added margin for better spacing */
+    
+}
+
+.search input {
+    flex: 1;
+    height: 60px;
+    padding: 0 25px;
+    font-size: 18px;
+    background: #3ebfffc;
+    color: #555;
+    border: 0;
+    border-radius: 30px;
+    outline: none;
+    margin-right: 10px;
+}
+
+.search button {
+    width: 62px;
+    height: 62px;
+    background: #ebfffc;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+}
+.search button img {
+    display: block;
+    width: 24px; /* Adjust the size of the image */
+    margin: 0 auto; /* Center the image vertically and horizontally */
+}
+
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+
+}
+
+/* Weather icon styles */
+.weather-icon {
+    width: 170px;
+    margin-top: 30px;
+}
+
+/* Weather info styles */
+.weather h1 {
+    font-size: 80px;
+    font-weight: 500;
+    margin-bottom: 10px; /* Adjusted margin for better spacing */
+}
+
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+/* Details styles */
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+/* Column styles */
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+/* Humidity and wind styles */
+.humidity .wind {
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+.weather{
+    display: none;
+}
